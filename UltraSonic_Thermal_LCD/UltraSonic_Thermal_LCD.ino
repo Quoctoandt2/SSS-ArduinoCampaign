@@ -10,7 +10,8 @@
  
 /*
  * \file
- *         A quick program that detect people or thing in a range and indicate with the light
+ *         A quick program that detects people or thing in a range and indicates the 
+ *         distance to the nearest obstacle and the temperature.
  * \author
  *        Pham Ba Tho     https://www.facebook.com/phambatho  
  *        Tran Duy Thanh  https://www.facebook.com/tranduy.thanh.37      
