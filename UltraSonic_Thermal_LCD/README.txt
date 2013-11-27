@@ -1,0 +1,1 @@
+A quick program that detects people or thing in a range and indicates the distance to the nearest obstacle and the temperature.

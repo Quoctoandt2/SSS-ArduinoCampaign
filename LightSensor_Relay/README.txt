@@ -1,0 +1,1 @@
+A quick program that measure the brightness of the room and turn the light on or off
