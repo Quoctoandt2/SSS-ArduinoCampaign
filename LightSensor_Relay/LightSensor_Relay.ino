@@ -40,6 +40,7 @@
 /* Chung ta khia bao cac bien duoc su dung o day */
 int Light_Sensor_Pin = A0;    // Chung ta dung ten Light_Sensor_Pin thay cho ten A0
 int Light_bulb = 9;      // Chung ta dat ten cho chan so 9 la Light_bulb, day cung la chan tin hieu dieu khien den.
+
 int Light_Sensor_Value = 0;  // bien Light_Sensor_value dung de luu gia tri nhan duoc va dem di so sanh sau nay
 
 void setup() {
