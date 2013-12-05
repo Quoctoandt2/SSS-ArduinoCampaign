@@ -5,7 +5,7 @@
  *
  * Code nay gioi thieu voi cac ban cach su dung quang tro (ta goi la cam bien anh sang cung duoc)
  * Tuy thuoc vao dac tinh cua quang tro va nhu cau cua ban ma du lieu analog nhan duoc va cach
- * xu ly du lieu do co it nhieu su thay doi. Mong cac ban luu y van de nay
+ * xu ly du lieu do co it nhieu su thay doi. Mong cac ban luu y van de nay.
  *
  */
  
