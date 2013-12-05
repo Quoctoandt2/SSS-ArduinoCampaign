@@ -26,7 +26,7 @@
    */
 
 int ir_receive =  8;
-int light      = 13;
+int light      = 9;
 int in_range;
 
 
