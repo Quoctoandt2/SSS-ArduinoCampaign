@@ -34,7 +34,7 @@
   * va gia tri 350 la off_level voi 2 dong code nhu sau:
    */
   
-#define on_level  500
+#define on_level  400
 #define off_level 350
 
 /* Chung ta khia bao cac bien duoc su dung o day */
@@ -45,19 +45,20 @@ int Light_Sensor_Value = 0;  // bien Light_Sensor_value dung de luu gia tri nhan
 void setup() {
   // Chung ta dung lenh sau de quy dinh chan so 13 la chan xuat tin hieu
   pinMode(Light_bulb, OUTPUT);  
+  Serial.begin(115200);
 }
 
 void loop() {
 
   /* Doc gia tri nhan duoc tu cam bien anh sang */
   Light_Sensor_Value = analogRead(Light_Sensor_Pin);    
-  
+  Serial.println(Light_Sensor_Value);
   /* Ta dung ham if de so sanh gia tri nhan duoc voi 500 */
   if(Light_Sensor_Value > on_level){
   
   /* Neu gia tri nhan duoc thuc su lon hon 500 thi dong lenh nay se duoc thuc hien
      Va dong lenh nay cung la lenh mo den */
-  digitalWrite(Light_bulb, HIGH);  
+  digitalWrite(Light_bulb, LOW);  
   }
   
   /* Ta dung ham if de so sanh gia tri nhan duoc voi 350 */
@@ -66,6 +67,6 @@ void loop() {
   /* Neu gia tri nhan duoc thuc su lon hon 500 thi dong lenh nay se duoc thuc hien
      Va dong lenh nay cung la lenh mo den */
   
-  digitalWrite(Light_bulb, LOW);   
+  digitalWrite(Light_bulb, HIGH);   
   }             
 }
